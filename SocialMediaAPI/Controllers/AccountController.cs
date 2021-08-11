@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using SocialMediaAPI.Models;
 using SocialMediaAPI.Providers;
 using SocialMediaAPI.Results;
+using SocialMediaData;
 
 namespace SocialMediaAPI.Controllers
 {
