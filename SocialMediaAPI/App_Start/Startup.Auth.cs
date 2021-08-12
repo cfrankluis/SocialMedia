@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using SocialMediaAPI.Providers;
-using SocialMediaAPI.Models;
+using SocialMediaModels.Providers;
+using SocialMediaModels.Models;
 
-namespace SocialMediaAPI
+namespace SocialMediaModels
 {
     public partial class Startup
     {

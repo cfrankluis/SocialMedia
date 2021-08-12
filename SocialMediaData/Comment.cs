@@ -11,15 +11,18 @@ namespace SocialMediaData
     public class Comment
     {
         [Key]
-        public int Id { get; set; }
+        public int CommentId { get; set; }
 
         [Required]
         public string Text { get; set; }
         [Required]
         public Guid AuthorId { get; set; }
-        public virtual List<Reply> Replies { get; set; }
+        public virtual List<Reply> Reply { get; set; }
         [ForeignKey(nameof(PostId))]
         public int PostId { get; set; }
         public virtual Post Post { get; set; }
+        [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
+
     }
 }

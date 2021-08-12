@@ -1,6 +1,6 @@
 using System;
 
-namespace SocialMediaAPI.Areas.HelpPage.ModelDescriptions
+namespace SocialMediaModels.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Use this attribute to change the name of the <see cref="ModelDescription"/> generated for a type.

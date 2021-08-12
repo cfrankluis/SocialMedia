@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using SocialMediaAPI.Areas.HelpPage.ModelDescriptions;
+using SocialMediaModels.Areas.HelpPage.ModelDescriptions;
 
-namespace SocialMediaAPI.Areas.HelpPage
+namespace SocialMediaModels.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

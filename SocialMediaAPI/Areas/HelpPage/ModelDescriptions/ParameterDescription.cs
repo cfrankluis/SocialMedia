@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace SocialMediaAPI.Areas.HelpPage.ModelDescriptions
+namespace SocialMediaModels.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterDescription
     {

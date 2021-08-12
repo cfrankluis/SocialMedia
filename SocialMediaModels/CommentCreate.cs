@@ -13,7 +13,7 @@ namespace SocialMediaModels
         [ForeignKey(nameof(PostId))]
         public int PostId { get; set; }
         [Required, MaxLength(144)]
-        public string Content { get; set; }
+        public string Text { get; set; }
        
 
     }

@@ -1,6 +1,6 @@
 using System;
 
-namespace SocialMediaAPI.Areas.HelpPage.ModelDescriptions
+namespace SocialMediaModels.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

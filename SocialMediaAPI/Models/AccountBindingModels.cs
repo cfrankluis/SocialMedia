@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace SocialMediaAPI.Models
+namespace SocialMediaModels.Models
 {
     // Models used as parameters to AccountController actions.
 
