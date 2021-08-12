@@ -1,4 +1,4 @@
-namespace SocialMediaAPI.Areas.HelpPage.ModelDescriptions
+namespace SocialMediaModels.Areas.HelpPage.ModelDescriptions
 {
     public class CollectionModelDescription : ModelDescription
     {
