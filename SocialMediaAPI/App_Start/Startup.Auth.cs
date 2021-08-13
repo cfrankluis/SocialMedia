@@ -8,8 +8,9 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using SocialMediaModels.Providers;
-using SocialMediaModels.Models;
+using SocialMediaAPI.Providers;
+using SocialMediaAPI.Models;
+using SocialMediaData;
 
 namespace SocialMediaModels
 {

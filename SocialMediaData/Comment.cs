@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -23,6 +23,5 @@ namespace SocialMediaData
         public virtual Post Post { get; set; }
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
-
     }
 }

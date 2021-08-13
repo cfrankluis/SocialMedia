@@ -13,9 +13,10 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using SocialMediaModels.Models;
-using SocialMediaModels.Providers;
-using SocialMediaModels.Results;
+using SocialMediaAPI.Models;
+using SocialMediaAPI.Providers;
+using SocialMediaAPI.Results;
+using SocialMediaData;
 
 namespace SocialMediaModels.Controllers
 {
