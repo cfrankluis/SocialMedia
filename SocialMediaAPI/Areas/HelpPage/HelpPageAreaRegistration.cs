@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace SocialMediaAPI.Areas.HelpPage
+namespace SocialMediaModels.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

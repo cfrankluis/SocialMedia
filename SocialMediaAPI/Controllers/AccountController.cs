@@ -18,7 +18,7 @@ using SocialMediaAPI.Providers;
 using SocialMediaAPI.Results;
 using SocialMediaData;
 
-namespace SocialMediaAPI.Controllers
+namespace SocialMediaModels.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SocialMediaAPI.Models
+namespace SocialMediaModels.Models
 {
     // Models returned by AccountController actions.
 
