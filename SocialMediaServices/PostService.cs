@@ -28,7 +28,7 @@ namespace SocialMediaServices
                 };
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Posts.Add(entity);
+                ctx.Post.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -39,7 +39,7 @@ namespace SocialMediaServices
             {
                 var query =
                     ctx
-                        .Posts
+                        .Post
                         .Where(p => p.AuthorId == _userId)
                         .Select(
                             p =>

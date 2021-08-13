@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using SocialMediaData;
+using IdentityUser = Microsoft.AspNet.Identity.EntityFramework.IdentityUser;
 
 namespace SocialMediaModels
 {

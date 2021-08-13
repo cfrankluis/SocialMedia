@@ -29,7 +29,7 @@ namespace SocialMediaServices
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Replies.Add(entity);
+                ctx.Reply.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
 
@@ -41,7 +41,7 @@ namespace SocialMediaServices
             {
                 var query =
                     ctx
-                        .Replies
+                        .Reply
                         .Where(e => e.CommentId == id)
                         .Select(
                             e =>
