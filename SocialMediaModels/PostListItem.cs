@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SocialMediaModels
 {
-    public class Class1
+    public class PostListItem
     {
+        public int Id { get; set; }
+        public string Title { get; set; }
+       // public Guid AuthorId { get; set; }
     }
 }

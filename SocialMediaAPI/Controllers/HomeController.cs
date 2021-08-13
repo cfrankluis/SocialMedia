@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SocialMediaAPI.Controllers
+namespace SocialMediaModels.Controllers
 {
     public class HomeController : Controller
     {

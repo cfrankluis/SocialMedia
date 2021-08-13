@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace SocialMediaAPI.Areas.HelpPage.ModelDescriptions
+namespace SocialMediaModels.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {
