@@ -6,7 +6,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 
-namespace SocialMediaAPI
+namespace SocialMediaModels
 {
     public static class WebApiConfig
     {
@@ -17,6 +17,7 @@ namespace SocialMediaAPI
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
+            config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 

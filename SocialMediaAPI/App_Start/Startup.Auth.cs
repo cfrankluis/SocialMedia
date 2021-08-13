@@ -10,8 +10,9 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using SocialMediaAPI.Providers;
 using SocialMediaAPI.Models;
+using SocialMediaData;
 
-namespace SocialMediaAPI
+namespace SocialMediaModels
 {
     public partial class Startup
     {

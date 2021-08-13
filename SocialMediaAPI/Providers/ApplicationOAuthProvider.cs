@@ -10,8 +10,9 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using SocialMediaAPI.Models;
+using SocialMediaData;
 
-namespace SocialMediaAPI.Providers
+namespace SocialMediaModels.Providers
 {
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {
